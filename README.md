@@ -4,3 +4,7 @@ Django 공식 홈페이지에 있는 [튜토리얼](https://docs.djangoproject.c
 
 ## Reference
 - [About __str__ in models.py](https://neung0.tistory.com/51)
+
+
+## 정리
+ - A URLconf maps URL patterns to views.
