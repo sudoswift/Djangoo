@@ -8,8 +8,8 @@ def index(request):
     return render(request, 'polls/index.html', context)
 
 def detail(request, question_id):
-    question = get_object_or_404(Question, pk = question_id)
-    return render(request, 'polls/detail.html', {'question': question})
+    question = get_object_or_404(Question, pk = question_id) # 이 question이
+    return render(request, 'polls/detail.html', {'question': question}) # 이 question이다. dictionary -> key : value
 
 def results(request, question_id):
     response = "You're looking at the results of question {}."
